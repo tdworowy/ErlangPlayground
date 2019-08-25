@@ -1,0 +1,6 @@
+compile file:
+1. in cmd werl
+2. c("filename")
+
+run function(in wrl):
+1.fielname:functionName(<parameters>)
