@@ -1,1 +1,1 @@
-erl -eval "edoc:files([""basics/functions.erl""], [{dir, ""doc""}])." -noshell
+erl -eval "edoc:files([""basics/functions.erl"",""basics/pattern_matching.erl"",""basics/guards.erl""], [{dir, ""docs""}])." -noshell
