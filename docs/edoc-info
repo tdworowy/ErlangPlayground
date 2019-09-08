@@ -1,2 +1,2 @@
 %% encoding: UTF-8
-{modules,[case_exp,functions,guards,pattern_matching,recursion]}.
+{modules,[case_exp,functions,guards,pattern_matching,recursion,user_input]}.
