@@ -16,14 +16,17 @@ hello() ->
 %% @doc Sume function.
 -spec(my_sum() -> atom()).
 my_sum() ->
-  Input1 = io:get_line("Enter first number>> "),
-  Value1 = string:strip(Input1, right, $\n),
-  {Number1, _} = string:to_integer(Value1),
-  
-  Input2 = io:get_line("Enter second number>> "),
-  Value2 = string:strip(Input2, right, $\n),
-  {Number2, _} = string:to_integer(Value2),
+  Number1 = get_number(),
+  Number2 = get_number(),
   
   Sum = Number1 + Number2,
   io:format("Sum is "++integer_to_list(Sum)++"\n").
+
+%% @doc get number for user.
+-spec(get_number() -> number()).
+get_number() ->
+   Input = io:get_line("Enter number>> "),
+   Value = string:strip(Input, right, $\n),
+  {Number, _} = string:to_integer(Value),
+  Number.
  
