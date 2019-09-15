@@ -5,5 +5,4 @@ compile file:
 run function(in wrl):
 1.fielname:functionName(<parameters>)
 
-generate documentation: edoc:files(["functions.erl"], [{dir, "doc"}]).
-.
+generate documentation: edoc:files(["functions.erl"], [{dir, "docs"}]).
