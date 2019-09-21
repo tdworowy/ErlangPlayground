@@ -1,1 +1,1 @@
-erl -eval "edoc:files([""basics/functions.erl"",""basics/pattern_matching.erl"",""basics/guards.erl"",""basics/case_exp.erl"",""basics/recursion.erl"",""basics/user_input.erl"",""basics/lists_exl.erl""], [{dir, ""docs""}])." -noshell
+erl -eval "edoc:files([""basics/functions.erl"",""basics/pattern_matching.erl"",""basics/guards.erl"",""basics/case_exp.erl"",""basics/recursion.erl"",""basics/user_input.erl"",""basics/lists_exl.erl"",""basics/processes.erl""], [{dir, ""docs""}])." -noshell

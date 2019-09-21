@@ -6,3 +6,21 @@ run function(in wrl):
 1.fielname:functionName(<parameters>)
 
 generate documentation: edoc:files(["functions.erl"], [{dir, "docs"}]).
+
+spawn process:
+    Pid=spawn(<module name>,<function name>,[<list of argumnets>]). in case of empty arguments use []
+Register process:
+    register(<process name (atom)>,Pid1).
+Get registered process pid:
+    whereis(<process name>).
+Get list of registered proccesses:
+    regs()
+
+Send message
+ Pid ! <Message>    
+
+Proccess observer: 
+    observer:start().
+
+Spawn linked process
+spawn_link(<module name>,<function name>,[<list of argumnets>]). in case of empty arguments use []
