@@ -1,5 +1,5 @@
 %% @author Tomasz
-%% @doc Processes/messaging example.
+%% @doc Processes/messaging example (spawn processes using thoes functions).
 
 -module(processes).
 -import(recursion,[fibb_tail/1]).

@@ -24,3 +24,16 @@ Proccess observer:
 
 Spawn linked process
 spawn_link(<module name>,<function name>,[<list of argumnets>]). in case of empty arguments use []
+
+debugging:
+    c(<module name>, [debug_info]).
+    debugger:start().
+
+Tracing messages:
+    dbg:tracer().
+    dbg:p(Pid1,m).
+
+Tracing function calls:
+    dbg:tracer().
+    dbg:p(all, c).
+    dbg:tpl(<module name>, <function name>, []).
