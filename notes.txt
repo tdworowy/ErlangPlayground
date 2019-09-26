@@ -37,3 +37,7 @@ Tracing function calls:
     dbg:tracer().
     dbg:p(all, c).
     dbg:tpl(<module name>, <function name>, []).
+
+______________
+ Erlang Term Storage(in-memory collection store)
+ets:...
