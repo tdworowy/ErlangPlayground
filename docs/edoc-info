@@ -1,3 +1,4 @@
 %% encoding: UTF-8
 {modules,[case_exp,data_structures,erlang_term_storage,functions,guards,
-          lists_exl,logging,pattern_matching,processes,recursion,user_input]}.
+          lists_exl,logging,mnesia_exl,pattern_matching,processes,recursion,
+          user_input]}.
