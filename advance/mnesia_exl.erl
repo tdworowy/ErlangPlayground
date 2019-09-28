@@ -2,7 +2,7 @@
 %% @doc Example of mnsesia  database management system.
 
 -module(mnesia_exl).
--include_lib("stdlib/include/qlc.hrl"). 
+-include_lib("stdlib/include/qlc.hrl"). %% http://erlang.org/doc/man/qlc.html
 -export([create_new_db/0,read_data/0,read_all_data/0]).
 %% record definition (with default values).
 -record(example_record, {name="Test1", description="Example record"}).
