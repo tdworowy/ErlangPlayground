@@ -1,7 +1,7 @@
 %% @author Tomasz
 %% @doc case example
 
--module(case_exp).
+-module(case_exl).
 -export([fall_velocity/2,fall_velocity2/2,fizzbuzz/1]).
 
 %% @doc Compute fall velocity on difrent planets (planet name is atom).
@@ -14,6 +14,7 @@ fall_velocity(Planemo, Distance) when Distance >= 0  ->
   end.
 
 %% @doc Compute fall velocity on difrent planets (planet name is atom).
+ -spec(fall_velocity2(atom(),number()) -> number()).
 fall_velocity2(Planemo, Distance) when Distance >= 0  ->
   Gravity = case Planemo of
     earth -> 9.8;
