@@ -39,5 +39,30 @@ Tracing function calls:
     dbg:tpl(<module name>, <function name>, []).
 
 ______________
- Erlang Term Storage(in-memory collection store)
-ets:...
+Erlang Term Storage(in-memory collection store)
+	ets:...
+______________
+Builds:
+	https://www.rebar3.org
+	http://erlang.org/doc/man/escript.html
+
+______________
+
+Erlang shell commands
+Command	Action
+q()Quits the shell and the Erlang runtime
+c(file)Compiles the specified Erlang file
+b()Displays all variable bindings
+f()Clears all variable bindings
+f(X)Clears specified variable binding
+h()Prints the history list of commands
+e(N)Repeats the command on line N
+v(N)The return value of line N
+catch_exception(boolean)Sets how strict the shell will be in passing errors
+rd(Name,Definition)Defines a record type Name with contents specified by Definition
+rr(File)Defines record types based on the contents of File
+rf()Clears all record definitions. Can also clear specific definitions
+rl()Lists all current record definitions
+pwd()Gets the present working directory
+ls()Lists files at the current location
+cd(Directory)Changes to the specified Directory
