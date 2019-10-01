@@ -1,4 +1,4 @@
 %% encoding: UTF-8
 {modules,[case_exl,data_structures,drop_app,erlang_term_storage,functions,
-          gen_server_exl,guards,lists_exl,logging,mnesia_exl,pattern_matching,
-          processes,recursion,supervisor_exl,user_input]}.
+          gen_server_exl,guards,lists_exl,logging,mnesia_exl,pair_count,
+          pattern_matching,processes,recursion,supervisor_exl,user_input]}.
