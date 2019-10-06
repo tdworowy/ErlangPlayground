@@ -10,7 +10,8 @@
 count_valleys(String) ->
     [Char| Tail] =  [[X] || X <- String],
     Data = check_char(Char,{0,false,0}),
-    count_valleys(Tail,Data).
+    Data2 = check_data(Data),
+    count_valleys(Tail,Data2).
 
 count_valleys([],Data)->
     element(3,Data);
