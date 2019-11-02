@@ -12,10 +12,11 @@
 hourglass_sum(Arr) ->
     Horugs = get_all_hourgs(Arr,1,1,4,2,[]),
     F = fun (Horug) ->
-        lists:sum(tuple_to_list(Horug)) 
+        Sum = lists:sum(tuple_to_list(Horug)),
+        Sum 
     end,
-    Sums = lists:map(F,Horugs),
-    max(Sums).
+    Sums = lists:map(F,Horugs),%% something  is wrong
+    lists:max(Sums).
 
 get_all_hourgs(Arr,Li,I,J,Z,Horugs) when Li+2 =< length(Arr) ->
     Sub_list1 = lists:nth(Li,Arr),
@@ -55,6 +56,3 @@ slice(_,X,X)->
 [];
 slice(L,Low,High)->
 slice(L,1,Low,Low,High).
-
-max([Max|T]) -> max(Max, T).
-
