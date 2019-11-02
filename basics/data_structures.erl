@@ -14,7 +14,7 @@ print_map() ->
     io:format("Map: ~p~n",[ExampleMap]),
     io:format("Map value fpr key ~p  ~p~n",[key,maps:get(key,ExampleMap)]).
 
-%% @doc Print record.
+%% @doc Print records.
 print_record() ->
     New_record1 = #example_record{}, %% example values
     New_record2 = #example_record{name="Test2", description="Example record2"},
