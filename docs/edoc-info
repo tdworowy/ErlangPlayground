@@ -3,4 +3,4 @@
           erlang_term_storage,functions,gen_server_exl,guards,hourglass,
           jumping_on_clouds,lists_exl,logging,mnesia_exl,pair_count,
           pattern_matching,processes,recursion,repeated_string,rotate,
-          supervisor_exl,user_input]}.
+          sort_minimum_swaps,supervisor_exl,user_input]}.
