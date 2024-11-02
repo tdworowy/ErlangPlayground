@@ -2,7 +2,7 @@
     1. in cmd werl
     2. c("filename")
 
-## un function(in wrl):
+## run function(in wrl):
     fielname:functionName(<parameters>)
 
 ## generate documentation: 
